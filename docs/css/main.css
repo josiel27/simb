@@ -1,5 +1,8 @@
 body {
     background: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
 }
 
 .form-inline {

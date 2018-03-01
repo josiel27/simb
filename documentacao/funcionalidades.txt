@@ -1,0 +1,19 @@
+# fazer orçamento / crudo aluno
+# consultar alunos
+# consultar orçamentos
+# crud atendentes
+# contratos
+# crud instrumentos
+# crud planos
+# crud professores
+# grade
+
+Menu =
+# Alunos
+# Usuarios
+# Contratos 
+# Orcamentos
+# Fazer orçamento
+# Instrumentos
+# Planos
+# Professores
