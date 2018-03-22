@@ -30,6 +30,10 @@ body {
     margin-right: 10px;
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
 .navbar .navbar-brand {
     color: #555;
     padding-left: 0;
@@ -155,4 +159,13 @@ body {
     .input-group {
         width: 100%;
     }
+}
+
+#relogio{
+    position: absolute;
+    display: block;
+    color: white;
+    top: 90%;
+    left: 5%;
+    font-size: 25px;
 }

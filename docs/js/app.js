@@ -6,37 +6,69 @@ app.config(function ($routeProvider) {
         })
         .when("/usuarios", {
             templateUrl: "usuarios.html",
-            function: consultarUsuarios
+            controller: 'ctrl_usuarios'
         })
         .when("/alunos", {
             templateUrl: "alunos.html",
-            function: consultarAlunos()
+            controller: 'ctrl_alunos'
         })
         .when("/calendario", {
-            templateUrl: "calendario.html"
+            templateUrl: "calendario.html",
+            controller: 'ctrl_calendario'
         })
         .when("/instrumentos", {
-            templateUrl: "instrumentos.html"
+            templateUrl: "instrumentos.html",
+            controller: 'ctrl_instrumentos'
         })
         .when("/professores", {
-            templateUrl: "professores.html"
+            templateUrl: "professores.html",
+            controller: 'ctrl_professores'
         })
         .when("/planos", {
-            templateUrl: "planos.html"
+            templateUrl: "planos.html",
+            controller: 'ctrl_planos'
         })
         .when("/consultarOrcamentos", {
-            templateUrl: "consultarOrcamentos.html"
+            templateUrl: "consultarOrcamentos.html",
+            controller: 'ctrl_orcamentos'
         })
         .when("/orcamentos", {
-            templateUrl: "orcamentos.html"
+            templateUrl: "orcamentos.html",
         })
 });
 
-function consultarUsuarios(){
-    console.log('Consultar Usuarios')
-}
+app.controller('ctrl_usuarios', function ($scope) {
+    $scope.nameCtrl = "ctrl_usuarios";
+    console.log($scope.nameCtrl)
+});
 
+app.controller('ctrl_alunos', function ($scope) {
+    $scope.nameCtrl = "ctrl_alunos";
+    console.log($scope.nameCtrl)
+});
+app.controller('ctrl_calendario', function ($scope) {
+    $scope.nameCtrl = "ctrl_calendario";
+   
+    console.log($scope.nameCtrl)
+});
+app.controller('ctrl_instrumentos', function ($scope) {
+    $scope.nameCtrl = "ctrl_instrumentos";
+   
+    console.log($scope.nameCtrl)
+});
+app.controller('ctrl_professores', function ($scope) {
+    $scope.nameCtrl = "ctrl_professores";
+   
+    console.log($scope.nameCtrl)
+});
+app.controller('ctrl_planos', function ($scope) {
+    $scope.nameCtrl = "ctrl_planos";
+   
+    console.log($scope.nameCtrl)
+});
+app.controller('ctrl_orcamentos', function ($scope) {
+    $scope.nameCtrl = "ctrl_orcamentos";
+   
+    console.log($scope.nameCtrl)
+});
 
-function consultarAlunos(){
-    console.log('Consultar Alunos')
-}
